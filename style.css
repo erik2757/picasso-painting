@@ -1,0 +1,13 @@
+.box {
+    background-color: lightgreen;
+    border: 100px solid ;
+    position: relative;
+}
+
+.green{ 
+    border: 50px solid green;
+    display: inline-block;
+    flex-wrap: wrap;
+   
+   
+}
