@@ -1,13 +1,148 @@
 .box {
-    background-color: lightgreen;
-    border: 100px solid ;
-    position: relative;
+    background-color: white;
+    border: 50px black
+    width: 1000px;
+    height: 150px;
+    position: absolute;
 }
 
 .green{ 
-    border: 50px solid green;
+    background: green;
+    height: 50px;
+    width: 100px;
     display: inline-block;
     flex-wrap: wrap;
-   
-   
+
+}
+
+.boxz{
+    background: green;
+    height: 100px;;
+}
+.circle{
+    background-color: rgb(194, 85, 34);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: -120px 75px;
+    z-index: 1;
+    position: relative;
+}
+.triangles{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+    z-index: 1;
+    position: absolute;
+    margin: 100px 175px;
+
+}
+.lbs{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(85, 193, 207);
+    z-index: 1;
+    position: absolute;
+    margin: 150px 250px;    
+}
+.people{
+    width: 0px;
+    height: 0px;
+    border-right: 30px solid transparent;
+    border-top: 30px solid red;
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    margin: 135px 0px;
+} /* got from online, thought it was pretty cool */ 
+
+.two{
+    width: 0px;
+    height: 0px;
+    border-right: 30px solid transparent;
+    border-top: 30px solid red;
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    margin: 135px 50px;   
+}
+
+.three{
+    width: 0px;
+    height: 0px;
+    border-right: 30px solid transparent;
+    border-top: 30px solid red;
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    margin: 135px 100px;
+}
+.yell{
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin:45px 35px;
+    z-index: 1;
+    position: absolute;
+}
+.small{
+    background-color: yellow;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin:45px 15px;
+    z-index: 1;
+    position: absolute;   
+}
+.smaller{
+    background-color: yellow;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin:85px 15px;
+    z-index: 1;
+    position: absolute;
+}
+.smallest{
+    background-color: rgb(194, 85, 34);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin:55px 105px;
+    z-index: 1;
+    position: absolute;
+}
+.smallesto{
+    background-color: rgb(194, 85, 34);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin:105px 25px;
+    z-index: 1;
+    position: absolute;
+}
+.boxo{
+    background: lightgreen;
+    width: 310px;
+    height: 10px;
+    border: 150px;
+    position: absolute;
+    margin: 200px 00px;
 }
